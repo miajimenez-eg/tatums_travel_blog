@@ -1,0 +1,43 @@
+* {
+    /* font used throughout is Arial */
+    font-family: Arial;
+
+}
+
+body {
+    /* background color of the page is grey */
+    background-color: beige;
+}
+
+h1 {
+    /* makes h1 color blue */
+    color: midnightblue;
+}
+
+h3 {
+    /* makes h3 color pink */
+    color: hotpink;
+}
+
+article {
+    /* background gradient for each article */
+    background-image: linear-gradient(pink, beige);
+}
+
+header {
+    /* gives header a background image that fits to the size of the screen, and the text is white*/
+    background-image: url("https://images.unsplash.com/photo-1470125634816-ede3f51bbb42?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3Vuc2V0JTIwcGFub3JhbWF8ZW58MHx8MHx8&w=1000&q=80");
+    background-size: cover;
+    color: white;
+}
+
+a {
+    /* adds color of a tags to yellow, and makes sure they are not underlined */
+    color: rgb(13, 168, 155);
+    text-decoration: none;
+}
+
+a:hover {
+    /* changes color of a tags to a darker yellow when hovered */
+    color: rgb(8, 83, 72);
+}

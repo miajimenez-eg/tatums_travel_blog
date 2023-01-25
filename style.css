@@ -22,6 +22,8 @@ h3 {
 article {
     /* background gradient for each article */
     background-image: linear-gradient(pink, beige);
+    padding: 12px;
+    margin-bottom: 48px;
 }
 
 header {
@@ -29,6 +31,10 @@ header {
     background-image: url("https://images.unsplash.com/photo-1470125634816-ede3f51bbb42?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3Vuc2V0JTIwcGFub3JhbWF8ZW58MHx8MHx8&w=1000&q=80");
     background-size: cover;
     color: white;
+
+    padding: 12px;
+    margin-bottom: 60px;
+    text-shadow: 2px 4px hotpink;
 }
 
 a {
@@ -40,4 +46,19 @@ a {
 a:hover {
     /* changes color of a tags to a darker yellow when hovered */
     color: rgb(8, 83, 72);
+}
+
+img {
+    display: block;
+    height: 20%;
+    border: rgb(13, 168, 155);
+}
+
+.subheading {
+    border-bottom: 1px solid rgb(13, 168, 155);
+}
+
+header, img, article {
+    border-radius: 0.75em;
+    box-shadow: 3.5px 6px grey;
 }
